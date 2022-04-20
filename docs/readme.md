@@ -1,7 +1,7 @@
 ## Solution
 
-This example of Flask, Tortoise ORM, and Marshmallow validation from simple validation RestApi returning data for fiction articles in a blog
-There is a Flask and CLI part, which requests and presents data from API.
+This example of Flask, Tortoise ORM, and Marshmallow validation for simple validation RestApi returning data for a blog fiction articles.
+There is a Flask and CLI part.
 
 ### BL logic Flask
 
