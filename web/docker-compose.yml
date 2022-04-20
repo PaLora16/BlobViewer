@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: 'postgres:9.5'
+    env_file:
+      - '.env-postgres'
+    volumes:
+      - 'postgres:/var/lib/postgresql/data'
+    ports:
+      - '5432:5432'
+
+  website:
+    build: .
+    env_file:
+      - '.env-web'
+    ports:
+      - '5000:5000'
+
+volumes:
+  postgres:
+
