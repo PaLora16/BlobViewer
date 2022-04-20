@@ -8,7 +8,9 @@ app = Flask(__name__)
 app.config.from_object(Config)
 
 from app.blueprints.page import page
+
 app.register_blueprint(page)
 bootstrap = Bootstrap(app)
 from app.db.services import init_db
+
 asyncio.run(init_db())
