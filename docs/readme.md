@@ -16,9 +16,9 @@ There is a Flask and CLI part.
 
 ### Running Flask solution
 - working directory: web 
-- Python main.py .
+- run : python main.py .
 
 ### Running CLI solution
 - working directory: web 
-- Python cli.py article_id
+- run : python cli.py article_id
 
