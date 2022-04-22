@@ -9,16 +9,16 @@ There is a Flask and CLI part.
 
 ### BL logic CLI
 
-1. Check if article id is saved in DB table -> retrieve article & presents on stdout
-2. Otherwise try to fetch article from TestApi
-3. If article id not returned from TestApi -> error messages -> end
-4. Print formatted article on stdout
+1. Check if article id is saved in DB table -> retrieve article & print on stdout -> end.
+2. Try to fetch article from TestApi.
+3. If article id not returned from TestApi -> error messages -> end.
+4. Print formatted article on stdout.
 
 ### Running Flask solution
-
-- Python main.py from web folder
+- working directory: web 
+- Python main.py .
 
 ### Running CLI solution
-
+- working directory: web 
 - Python cli.py article_id
- from web folder
+
