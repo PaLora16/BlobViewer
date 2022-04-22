@@ -20,5 +20,5 @@ There is a Flask and CLI part.
 
 ### Running CLI solution
 - working directory: web 
-- run : python cli.py article_id
+- run : python cli.py ***article_id***
 
