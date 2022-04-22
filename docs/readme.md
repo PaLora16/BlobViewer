@@ -1,6 +1,6 @@
 ## Solution
 
-This is an example of Flask, Tortoise ORM, and Marshmallow validation. App requests TestApi for a blog fiction articles.
+This is an example of Flask, Tortoise ORM and Marshmallow validation. App requests TestApi for a blog fiction articles.
 There is a Flask and CLI part.
 
 ### BL logic Flask
